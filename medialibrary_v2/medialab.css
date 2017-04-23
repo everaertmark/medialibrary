@@ -1,0 +1,371 @@
+.no-padding {
+	padding: 0!important;
+}
+.no-margin {
+	margin: 0!important;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+.float-right {
+	float: right;
+}
+.error {
+	color: yellow;
+}
+
+.datepicker {
+	z-index: 1200!important;
+}
+
+.textCenter {
+	text-align: center;
+}
+.blockCenter {
+	width: 120px;
+	margin: 0 auto;
+	display: block;
+}
+.marginTop {
+	margin-top: 20px;
+}
+.marginBottom {
+	margin-bottom: 20px;
+}
+.marginBottomLarge {
+	margin-bottom: 40px;
+}
+
+div.pageIntro {
+	margin-top: 60px;
+}
+div.logo_small {
+	position: relative;
+	top: 10px;
+	left: 30px;
+	width: 150px;
+	height: 150px;
+	float: left;
+	z-index: 50;
+}
+div.pageIntro div.logo {
+	width: 503px;
+	height: 265px;
+	margin: 20px auto 0;
+	position: relative;
+	z-index: 50;
+}
+div.pageIntro div.logo h1 {
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+div.pageIntro div.wikkelboatIntro {
+	text-align: center;
+	margin-top: 30px;
+	color: #fff;
+	font-family: Calibri;
+	text-shadow: 5px 5px 8px #000;
+	font-weight: bold;
+}
+
+div.bookingContainer {
+	margin-top: 100px;
+}
+
+div.bookingContainer div.bookingForm {
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 10px 10px 10px 0;
+	background-color: #fff;
+	position: relative;
+	font-family: Calibri;
+}
+
+div.bookingContainer div.bookingForm  div.bookingInformationText  {
+	background-color: #ad0c0c;
+	border-radius: 10px 0 0 10px;
+	overflow: hidden;
+	padding: 20px;
+	color: #fff;
+}
+div.bookingContainer div.bookingForm  div.bookingInformationText a {
+	color: #fff;
+}
+div.bookingContainer div.bookingForm  div.bookingInformationText a:hover {
+	text-decoration: none;
+}
+div.bookingContainer div.bookingForm div.bookingFormColumn {
+	background-color: #ebebeb;
+	border-radius: 10px 0 0 10px;
+	overflow: hidden;
+	padding: 20px;
+}
+div.bookingContainer div.bookingForm div.bookingFormColumn a {
+	color: #848484;
+}
+div.bookingContainer div.bookingForm div.bookingFormColumn a:hover {
+	text-decoration: none;
+}
+
+div.bookingInformationText h2, div.bookingFormColumn h2 {
+	margin-top: 10px;
+}
+
+section.informationHeader {
+	margin-top: 70px;
+	margin-bottom: 100px;
+	color: #626262;
+	font-family: Calibri;
+}
+
+section.informationHeader h1 {
+	font-size: 48px;
+}
+
+section.informationHeader p {
+	line-height: 32px;
+	font-size: 16px;
+	font-weight: lighter;
+	color: #898989;
+}
+.extraRed {
+	color: #ad0c0c;
+}
+
+section.header {
+	width: 100%;
+	height: 700px;
+	position: relative;
+	display: inline-block;
+	background: url('images/bob.jpg') no-repeat;
+	background-size: cover;
+}
+
+section.header:after {
+	content: "";
+	position: absolute;
+	background: url('images/shadow.png') repeat-x;
+	background-size: 500px 100%;
+	top: 0; right: 0;
+  	bottom: 0; left: 0;
+}
+
+section.header img {
+	width: 100%;
+	max-height: 900px;
+}
+
+section.header_stream {
+	width: 100%;
+	height: auto;
+	position: relative;
+	display: inline-block;
+	background: url('images/bob.jpg') no-repeat;
+	background-size: cover;
+}
+
+section.header_stream:after {
+	content: "";
+	position: absolute;
+	background: url('images/shadow.png') repeat-x;
+	background-size: 500px 100%;
+	top: 0; right: 0;
+	bottom: 0; left: 0;
+}
+
+section.header_stream img {
+	width: 100%;
+	max-height: 900px;
+}
+
+div.gallery-row > div > img {
+	width: 100%;
+	min-height: 600px;
+	max-height: 600px;
+}
+
+div.overview-row > div > img {
+	width: 100%;
+	min-height: 390px;
+	max-height: 390px;
+}
+
+footer {
+	padding: 20px 0;
+	background-color: #ad0c0c;
+}
+
+section.contentBody {
+	padding: 50px 100px;
+	color: #6e6e6e;
+}
+div.booking_titles h1 {
+	border-bottom: 2px solid #ea696d;
+	padding: 0 0 10px 0;
+	margin: 0;
+}
+
+div.booking_titles span {
+	color: #a70f0e;
+	font-size: 20px;
+	padding: 15px 0 0 50px;
+}
+
+div.booking_description {
+	margin-top: 30px;
+	max-width: 80%;
+}
+div.booking_description span {
+	font-weight: 600;
+	font-size: 18px;
+}
+div.booking_description p {
+	margin-top: 10px;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+}
+
+div.booking_specifications {
+	margin-top: 30px;
+}
+
+div.booking_specifications span {
+	font-weight: 600;
+	font-size: 18px;
+}
+
+div.booking_specifications img {
+	padding: 10px 0;
+}
+
+div.bookingSidebar {
+	padding: 15px 25px;
+	color: #fff;
+	background: #ae0b0c;
+	margin-top: -300px;
+}
+
+div.bookingSidebar .row {
+	margin: 0 0 40px;
+}
+div.bookingSidebar .row:nth-child(3) {
+	margin: 60px 0 40px;
+}
+div.bookingSidebar .row:nth-child(5) {
+	margin: 0;
+}
+
+div.bookingSidebar h1{
+	font-size: 34px;
+	margin: 20px 0 20px 0;
+	padding: 0;
+}
+
+div.bookingSidebar label, div.bookingSidebar span {
+	font-size: 16px;
+}
+
+div.bookingSidebar input[type=submit] {
+	width: 97.5%;
+}
+
+div.bookingSidebar input, div.bookingSidebar select {
+	width: 95%;
+	border: none;
+	border-radius: 10px;
+	padding: 5px;
+	color: #6e6e6e;
+}
+
+div.bookingSidebar a {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	background: #d4d4d4;
+	border: none;
+	color: #ae0b0c;
+}
+
+div.booking-sidebar-button {
+	margin: 50px 0 0 -25px!important;
+
+	position: absolute;
+	width: 100%;
+	border-radius: 0;
+	background: #636363; 
+	color: #fff;
+}
+div.booking-sidebar-button input[type=submit] {
+	width: 100%;
+	border-radius: 0;
+	background: #636363; 
+	color: #fff;
+	font-size: 30px;
+}
+
+select.price-select {
+	margin-top: 15px;
+	width: 90%!important
+}
+
+div.eventSidebar {
+	padding: 15px 25px;
+	position: relative;
+	margin-top: -20px;
+	color: #2a2a2a;
+	background: #e1e1e1;
+}
+
+div.eventSidebar div.event span, div.eventSidebar div.event_date span {
+	color: #9a0e0f;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+div.eventSidebar div.row {
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-bottom: none;
+}
+div.eventSidebar div.row:nth-child(even) {
+	background: #fff;
+}
+div.eventSidebar div.row:last-child {
+	border-bottom: 1px solid #ccc;
+}
+
+div.eventSidebar div.event p {
+	color: #959595;
+	padding-top: 10px;
+	font-size: 13px;
+}
+
+table.ui-datepicker-calendar td.ui-state-disabled.ui-datepicker-unselectable.undefined {
+	background: red;
+	opacity: 1;
+}
+
+div.mediaBox img {
+	width: 20%;
+	height: auto;
+}
+div.mediaBox h2 {
+	margin: 0;
+}
+a.addMedia {
+	width: 100%;
+}
+a.back-button {
+	padding: 10px 20px;
+	margin-bottom: 10px;
+}
+span.add-bucketlist-item {
+	margin-top: 20px;
+}
+
+video {
+	z-index: 300;
+	position: relative;
+}
